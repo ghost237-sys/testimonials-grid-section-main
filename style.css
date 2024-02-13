@@ -3,45 +3,99 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:hsl(0, 0%, 81%);
+    background-color: hsl(0, 0%, 81%);
     margin: 0px;
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 700px 500px 200px;
-    grid-template-rows: 300px;
+    margin: 50px 100px 100px 100px;
+    grid-template-rows: 350px;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.top-grid{
+    display: flex;
+    margin: 30px;
+    
 }
 
 .clifford{
-    position: relative;
-    margin: 0px 20px 0px 20px;
-    height: 300px;
     width: 600px;
+    height: 330px;
+    border-radius: 10px;
     background-color: hsl(263, 55%, 52%);
-    border-radius: 20px;
+}
+
+img{
+    border-radius: 50px;
+    padding-right: 10px;
+}
+
+.prof-image{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+
+
+#bold-text{
+    margin: 30px;
+    font-weight: 900px;
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#grey-text{
+    margin: 30px;
 }
 
 .walters{
-    height: 300px;
-    width: 250px;
+    width: 260px;
+    height: 330px;
     margin-left: 20px;
     background-color: hsl(217, 19%, 35%);
     border-radius: 10px;
 }
 
-.harmon{
-    margin: 20px;
+.kira{
+    width: 270px;
+    height: 690px;
+    margin-left: 30px;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.kira #bold-text{
+    color: hsl(210, 7%, 38%);
+    font-weight: 900;
 }
 
+.harmon{
+    width: 270px;
+    height: 340px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.harmon #bold-text{
+    color: hsl(210, 7%, 38%);
+    font-weight: 900;
+    font-size: 22px;
+}
 .abrams{
-    margin: 20px;
+    width: 590px;
+    height: 340px;
+    border-radius: 10px;
+    margin-left: 20px;
     background-color: hsl(219, 29%, 14%);
 }
-
-.kira{
-    margin: 20px;
-    background-color: hsl(0, 0%, 100%);
+.lower-grid{
+    display: flex;
+    margin: 30px;
 }
+
